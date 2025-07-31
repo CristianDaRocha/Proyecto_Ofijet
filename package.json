@@ -1,12 +1,21 @@
 {
-  "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "^5.0.0",
-    "framer-motion": "latest",
-    "lucide-react": "latest",
-    "react-router-dom": "latest"
+  "name": "ofijet",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://cristiandarochaa.github.io/ofijet",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
-  "main": "/index.js",
-  "devDependencies": {}
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "vite": "^4.0.0",
+    "gh-pages": "^6.1.0"
+  }
 }
